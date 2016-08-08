@@ -4,3 +4,4 @@ This image was created from the official [MySQL docker image](https://hub.docker
 
 It is configured to accept 500 connections (the default is 151), an InnoDB buffer pool size of 512M, and the `root` user doesn't have a password.
 
+It also contains a utility tool to wait for MySQL to be up (https://github.com/vishnubob/wait-for-it).
